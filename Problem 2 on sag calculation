@@ -1,0 +1,22 @@
+A transmission line conductor  having a diameter of 19.5mm, weights 0.85kg/m.The span is 275 metres.The wind pressure is 39 kg/m^2 of projected area with ice coating 
+of 13 mm.The ultimate strength of the conductor is 8000kg.Calculate the maximum sag if the factor of safety is 2 and ice weights 910 kg/m^3.
+
+Solution : Overall diameter of conductor with coating is = 1.95 + 2.6= 4.55cm 
+Area per meter length of conductor = 4.55*1*10^(-2) sq. metre
+wind load per metre length = 4.55*10^(-2)*39 = 1.77 kg/metre
+Area of section of ice =  π[(r^2 + t^2)^(2)-r^2]
+                       =  π[22.75^2 - 9.75^2]
+                       =  π[517.56 - 95.06]
+                       =  1327.32 sq.mm
+                       =  1.327*10^(-3)sq. metre
+                       
+Ice weightper metre length = 1.327 * 10^(-3) * 910 = 1.207 kg/metre
+
+Total weight W = [(0.85 + 1.207)^2 + 1.77^2]^(1/2)
+               = 2.71369 kg/metre
+              
+The working tension of the conductor = 8000/2 = 4000 kg
+
+c = T/W = 4000/2.71369= 1474 metres
+
+The mximum sag = l^2/(8c) = 275^2/(8*1474) = 6.4 metres
